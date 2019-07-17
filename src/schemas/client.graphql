@@ -1,0 +1,17 @@
+type Client {
+    id: ID
+    name: String
+    lastName: String
+    company: String
+    email: String
+    age: Int
+    type: String
+}
+
+type Query {
+    getClients: [Client]
+}
+
+type Mutation {
+    addClient(id:ID): String
+}

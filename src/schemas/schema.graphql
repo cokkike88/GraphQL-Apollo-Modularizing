@@ -1,0 +1,2 @@
+# import Query.*, Mutation.* from "client.graphql"
+# import Query.*, Mutation.* from "product.graphql"
