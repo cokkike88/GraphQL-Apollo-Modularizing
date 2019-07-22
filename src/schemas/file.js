@@ -1,0 +1,16 @@
+export default /* GraphQL */`
+type File {
+    id: ID!
+    path: String!
+    filename: String!
+    mimetype: String!
+  }
+
+  type Query {
+    files: [String]
+  }
+
+  type Mutation {
+    uploadFile(file: Upload!): Boolean
+  }
+`
