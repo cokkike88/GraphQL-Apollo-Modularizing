@@ -31,7 +31,7 @@
     "graphql": "^14.4.2",
     "graphql-import": "^0.7.1",
     "graphql-upload": "^8.0.7",
-    "lodash": "^4.17.14",
+    "lodash": "^4.17.21",
     "merge-graphql-schemas": "^1.6.1",
     "nodemon": "^1.19.1"
   }
